@@ -16,6 +16,7 @@ let rotationInterval = null;
 buttonBackgroundChange.addEventListener('click', colorChange);
 buttonAlert.addEventListener('click', showAlert);
 buttonDoNotClick.addEventListener('mouseover', runAway);
+buttonDoNotClick.addEventListener('mousemove', runAway);
 buttonRotate.addEventListener('click', rotateBody);
 buttonCat.addEventListener('click', addCat);
 buttonBlur.addEventListener('click', toggleBlur);
